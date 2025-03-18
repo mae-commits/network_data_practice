@@ -1,0 +1,20 @@
+{
+  "name": "python",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workdir",
+  "customizations": {
+    "image": "python:3.8",
+    "extensions": [
+      "ms-python.python",
+      "ms-toolsai.jupyter",
+      "ms-python.black-formatter",
+    ],
+    // "settings": {
+    //   "remoteEnv": {
+    //     ""
+    //   }
+    // }
+  }
+
+}
